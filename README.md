@@ -2,27 +2,45 @@
 
 A command-line grade tracking application built with Python and SQLite.
 
+---
+
+## 🚀 Live Demo
+
+▶️ **[Try it on Replit](https://replit.com/@kaungmyatpaing1/grade-tracker)**
+
+---
+
 ## 🚀 Features
 - Add students, courses, and assignments
 - Calculate weighted course grades automatically
 - Save course memos/notes to CSV
 - SQLite database for persistent storage
 
-## 🛠️ Tech Stack
-- Python 3
-- SQLite3
-- CSV
+---
 
-## ⚙️ Setup
+## 🛠️ Tech Stack
+| Technology | Usage |
+|---|---|
+| Python 3 | Main language |
+| SQLite3 | Database |
+| CSV | Memo storage |
+
+---
+
+## ⚙️ Setup & Run
 
 ```bash
-# Clone the repo
+# 1. Clone the repo
 git clone https://github.com/KAUNGMYATPAINGTHAR-dev/grade-tracker.git
+
+# 2. Move into the folder
 cd grade-tracker
 
-# Run the app
+# 3. Run the app
 python main_app.py
 ```
+
+---
 
 ## 📋 Menu Options
 
@@ -30,15 +48,38 @@ python main_app.py
 |--------|-------------|
 | 1 | Add a new student |
 | 2 | Add a new course |
-| 3 | Add assignment/score |
+| 3 | Add assignment / score |
 | 4 | Check grade report |
 | 5 | Save a course memo |
 | 6 | Exit |
 
-## 🐛 Bug Fixes
-- Fixed grade calculation always returning 100% (division error)
-- Fixed typo: "parcentage" → "percentage"
-- Added missing `database_setup.py`
+---
+
+## 📁 Project Structure
+
+```
+grade-tracker/
+├── main_app.py          # App entry point & menu
+├── grade_function.py    # GradeTracker logic & models
+├── database_setup.py    # Database connection & table setup
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 📈 Updates (v2.0)
+- Improved grade calculation accuracy
+- Refactored database setup into a dedicated module
+- Code cleanup and readability improvements
+
+---
+
+## 👤 Author
+**KAUNG MYAT PAING THAR**
+🔗 [GitHub Profile](https://github.com/KAUNGMYATPAINGTHAR-dev)
+
+---
 
 ## 📝 License
 MIT
