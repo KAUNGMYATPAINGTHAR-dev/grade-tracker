@@ -1,0 +1,7 @@
+grades.db
+memos.csv
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+venv/
